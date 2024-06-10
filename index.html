@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Design with tailwind</title>
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Hero section start -->
+    <section id="hero" class="pt-16">
+      <div class="container mx-auto">
+        <div class="max-w-xl mx-auto p-8 text-center md:max-w-2xl">
+          <h4 class="text-lg text-purple-500 font-semibold md:text-xl">
+            Our blog
+          </h4>
+          <h1
+            class="text-4xl text-slate-800 font-semibold mb-4 lg:text-5xl lg:font-bold"
+          >
+            Stories and interviews
+          </h1>
+          <p class="text-base text-slate-400 font-medium mb-4 md:text-lg">
+            Subscribe to learn about new product features, the latest in
+            technology, solutions and updates.
+          </p>
+          <div class="flex flex-wrap gap-4 w-full md:justify-center">
+            <div class="w-full md:basis-3/5">
+              <form action="email" class="text-slate-400">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="w-full py-2 px-4 rounded-md border border-2 border-slate-400"
+                />
+              </form>
+              <p class="text-sm text-slate-400 mb-4 text-left">
+                We care about your data in our
+                <a href="#" class="underline">"Privacy policy"</a>
+              </p>
+            </div>
+            <div class="w-full md:basis-1/4">
+              <button
+                type="button"
+                class="w-full bg-purple-500 py-2 rounded-md text-white font-medium"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- content section start -->
+    <section id="content" class="pt-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold">Resent blog post</h2>
+
+        <!-- card1 start -->
+        <div class="w-full">
+          <div class="pt-8 lg:flex lg:flex-1 gap-4">
+            <div class="md:max-w-2xl">
+              <div
+                class="w-full h-60 mx-auto bg-slate-500 lg:h-80 lg:bg-no-repeat lg:bg-cover"
+                style="background-image: url('/src/img/team\ work.avif')"
+              ></div>
+              <h3 class="text-purple-500 text-lg font-medium mt-4">
+                Olivia Rhye • 20 Jan 2022
+              </h3>
+              <h1 class="text-2xl font-bold mt-4">UX reviews presentations</h1>
+              <p class="text-slate-400 text-lg font-normal pt-4">
+                How do you create compelling presentations that wow your
+                colleagues and impress your managers?
+              </p>
+              <div class="flex gap-4 pt-4">
+                <button
+                  class="rounded-full bg-purple-100 bg-opacity-50 px-4 text-center text-purple-500 font-medium"
+                >
+                  Design
+                </button>
+                <button
+                  class="rounded-full px-4 bg-blue-100 bg-opacity-50 text-center text-blue-500 font-medium"
+                >
+                  Research
+                </button>
+                <button
+                  class="rounded-full px-4 bg-pink-100 bg-opacity-50 text-center text-pink-500 font-medium"
+                >
+                  Presentation
+                </button>
+              </div>
+            </div>
+
+            <!-- card 1 end -->
+
+            <!-- card2 start -->
+            <div class="pt-16 md:pt-0 md:flex-1">
+              <!-- CARD 1 START -->
+              <div class="">
+                <div class="max-w-xl md:max-w-full lg:flex lg:gap-4">
+                  <div
+                    class="w-full h-60 mx-auto bg-slate-500 flex lg:flex-1 lg:max-w-full bg-cover"
+                    style="background-image: url('/src/img/team\ work\ 2.avif')"
+                  ></div>
+                  <div class="lg:flex-1 lg:w-2xl">
+                    <h3 class="text-purple-500 text-lg font-medium mt-4">
+                      Phoenix Baker • 19 Jan 2024
+                    </h3>
+                    <h1 class="text-2xl font-bold mt-4">
+                      Migrating to Linear 101
+                    </h1>
+                    <p class="text-slate-400 text-lg font-normal pt-4">
+                      Linear helps streamline software projects, sprints, tasks,
+                      and bug tracking. Here’s how to get started.
+                    </p>
+                    <div class="flex gap-4 pt-4">
+                      <button
+                        class="rounded-full bg-purple-100 bg-opacity-50 px-4 text-center text-purple-500 font-medium"
+                      >
+                        Design
+                      </button>
+                      <button
+                        class="rounded-full px-4 bg-blue-100 bg-opacity-50 text-center text-blue-500 font-medium"
+                      >
+                        Research
+                      </button>
+                      <button
+                        class="rounded-full px-4 bg-pink-100 bg-opacity-50 text-center text-pink-500 font-medium"
+                      >
+                        Presentation
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 1  END-->
+
+              <!-- CARD 2 START -->
+              <div class="pt-16 lg:pt-10">
+                <div class="">
+                  <div class="max-w-xl md:max-w-full lg:flex lg:gap-4">
+                    <div
+                      class="w-full h-60 mx-auto bg-slate-500 lg:max-w-full bg-cover"
+                      style="
+                        background-image: url('/src/img/team\ work\ 3.avif');
+                      "
+                    ></div>
+                    <div>
+                      <h3 class="text-purple-500 text-lg font-medium mt-4">
+                        Lana Steiner • 18 Jan 2024
+                      </h3>
+                      <h1 class="text-2xl font-bold mt-4">
+                        Building your API Stack
+                      </h1>
+                      <p class="text-slate-400 text-lg font-normal pt-4">
+                        The rise of RESTful APIs has been met by a rise in tools
+                        for creating, testing, and managing them.
+                      </p>
+                      <div class="flex gap-4 pt-4">
+                        <button
+                          class="rounded-full bg-purple-100 bg-opacity-50 px-4 text-center text-purple-500 font-medium"
+                        >
+                          Design
+                        </button>
+                        <button
+                          class="rounded-full px-4 bg-blue-100 bg-opacity-50 text-center text-blue-500 font-medium"
+                        >
+                          Research
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 2 END -->
+            </div>
+
+            <!-- card2 end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- content section end -->
+
+    <!-- gallery section start -->
+    <section id="gallery" class="pt-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold">All blog post</h2>
+        <div class="pt-4 lg:grid lg:grid-cols-3 lg:gap-6">
+          <!-- gallery card1 start -->
+          <div class="lg:max-w-2xl pt-4">
+            <div
+              class="w-full h-60 mx-auto bg-slate-500 bg-no-repeat bg-cover"
+              style="background-image: url('/src/img/gallery1.avif')"
+            ></div>
+            <h3 class="text-purple-500 text-lg font-medium mt-4">
+              Alec Whitten • 17 Jan 2024
+            </h3>
+            <h1 class="text-2xl font-bold mt-4">
+              Bill Walsh leadership lessons
+            </h1>
+            <p class="text-slate-400 text-lg font-normal pt-4">
+              Like to know the secrets of transforming a 2-14 team into a 3x
+              Super Bowl winning Dynasty?
+            </p>
+            <div class="flex gap-4 pt-4">
+              <button
+                class="rounded-full bg-purple-100 bg-opacity-50 px-4 text-center text-purple-500 font-medium"
+              >
+                Leadership
+              </button>
+              <button
+                class="rounded-full px-4 bg-slate-100 bg-opacity-50 text-center text-slate-700 font-medium"
+              >
+                Management
+              </button>
+            </div>
+          </div>
+          <!-- gallery card1 end -->
+
+          <!-- gallery card2 start -->
+          <div class="lg:max-w-2xl pt-4">
+            <div
+              class="w-full h-60 mx-auto bg-slate-500 bg-no-repeat bg-cover"
+              style="background-image: url('/src/img/gallery2.avif')"
+            ></div>
+            <h3 class="text-purple-500 text-lg font-medium mt-4">
+              Demi WIlkinson • 16 Jan 2024
+            </h3>
+            <h1 class="text-2xl font-bold mt-4">PM mental models</h1>
+            <p class="text-slate-400 text-lg font-normal pt-4">
+              Mental models are simple expressions of complex processes or
+              relationships.
+            </p>
+            <div class="flex gap-4 pt-4">
+              <button
+                class="rounded-full bg-cyan-100 bg-opacity-50 px-4 text-center text-cyan-500 font-medium"
+              >
+                Product
+              </button>
+              <button
+                class="rounded-full px-4 bg-blue-100 bg-opacity-50 text-center text-blue-500 font-medium"
+              >
+                Research
+              </button>
+              <button
+                class="rounded-full px-4 bg-rose-100 bg-opacity-50 text-center text-rose-500 font-medium"
+              >
+                Framawork
+              </button>
+            </div>
+          </div>
+          <!-- gallery card2 end -->
+
+          <!-- gallery card3 start -->
+          <div class="lg:max-w-2xl pt-4">
+            <div
+              class="w-full h-60 mx-auto bg-slate-500 bg-no-repeat bg-cover"
+              style="background-image: url('/src/img/gallery3.avif')"
+            ></div>
+            <h3 class="text-purple-500 text-lg font-medium mt-4">
+              Candice Wu • 15 Jan 2024
+            </h3>
+            <h1 class="text-2xl font-bold mt-4">What is Wireframing?</h1>
+            <p class="text-slate-400 text-lg font-normal pt-4">
+              Introduction to Wireframing and its Principles. Learn from the
+              best in the industry.
+            </p>
+            <div class="flex gap-4 pt-4">
+              <button
+                class="rounded-full bg-purple-100 bg-opacity-50 px-4 text-center text-purple-500 font-medium"
+              >
+                Design
+              </button>
+              <button
+                class="rounded-full px-4 bg-blue-100 bg-opacity-50 text-center text-blue-500 font-medium"
+              >
+                Research
+              </button>
+            </div>
+          </div>
+          <!-- gallery card3 end -->
+
+          <!-- gallery card4 start -->
+          <div class="lg:max-w-2xl pt-4">
+            <div
+              class="w-full h-60 mx-auto bg-slate-500 bg-no-repeat bg-cover"
+              style="background-image: url('/src/img/gallery4.avif')"
+            ></div>
+            <h3 class="text-purple-500 text-lg font-medium mt-4">
+              Natali Craig • 14 Jan 2024
+            </h3>
+            <h1 class="text-2xl font-bold mt-4">
+              How collaboration makes us better designers
+            </h1>
+            <p class="text-slate-400 text-lg font-normal pt-4">
+              Collaboration can make our teams stronger, and our individual
+              designs better.
+            </p>
+            <div class="flex gap-4 pt-4">
+              <button
+                class="rounded-full bg-purple-100 bg-opacity-50 px-4 text-center text-purple-500 font-medium"
+              >
+                Design
+              </button>
+              <button
+                class="rounded-full px-4 bg-blue-100 bg-opacity-50 text-center text-blue-500 font-medium"
+              >
+                Research
+              </button>
+            </div>
+          </div>
+          <!-- gallery card4 end -->
+
+          <!-- gallery card5 start -->
+          <div class="lg:max-w-2xl pt-4">
+            <div
+              class="w-full h-60 mx-auto bg-slate-500 bg-no-repeat bg-cover"
+              style="background-image: url('/src/img/gallery5.avif')"
+            ></div>
+            <h3 class="text-purple-500 text-lg font-medium mt-4">
+              Drew Cano • 13 Jan 2024
+            </h3>
+            <h1 class="w-4/5 text-2xl font-bold mt-4">
+              Our top 10 Javascript frameworks to use
+            </h1>
+            <p class="text-slate-400 text-lg font-normal pt-4">
+              JavaScript frameworks make development easy with extensive
+              features and functionalities.
+            </p>
+            <div class="flex gap-4 pt-4">
+              <button
+                class="rounded-full bg-green-100 bg-opacity-50 px-4 text-center text-green-500 font-medium"
+              >
+                Software Development
+              </button>
+              <button
+                class="rounded-full px-4 bg-pink-100 bg-opacity-50 text-center text-pink-500 font-medium"
+              >
+                Tools
+              </button>
+              <button
+                class="rounded-full px-4 bg-rose-100 bg-opacity-50 text-center text-rose-500 font-medium"
+              >
+                SaaS
+              </button>
+            </div>
+          </div>
+          <!-- gallery card5 end -->
+
+          <!-- gallery card6 start -->
+          <div class="md:max-w-2xl pt-4">
+            <div
+              class="w-full h-60 mx-auto bg-slate-500 bg-no-repeat bg-cover"
+              style="background-image: url('/src/img/gallery6.avif')"
+            ></div>
+            <h3 class="text-purple-500 text-lg font-medium mt-4">
+              Orlando Diggs • 12 Jan 2024
+            </h3>
+            <h1 class="w-4/5 text-2xl font-bold mt-4">
+              Podcast: Creating a better CX Community
+            </h1>
+            <p class="text-slate-400 text-lg font-normal pt-4">
+              Starting a community doesn’t need to be complicated, but how do
+              you get started?
+            </p>
+            <div class="flex gap-4 pt-4">
+              <button
+                class="rounded-full bg-purple-100 bg-opacity-50 px-4 text-center text-purple-500 font-medium"
+              >
+                Podcast
+              </button>
+              <button
+                class="rounded-full px-4 bg-blue-100 bg-opacity-50 text-center text-blue-500 font-medium"
+              >
+                Costumer Success
+              </button>
+            </div>
+          </div>
+          <!-- gallery card6 end -->
+        </div>
+      </div>
+    </section>
+    <!-- gallery section end -->
+
+    <!-- footer start -->
+    <footer class="pt-20">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-2 lg:grid-cols-6">
+          <div class="w-1/2">
+            <h3 class="font-medium text-lg text-slate-500">Product</h3>
+            <div class="mt-4 grid gap-4">
+              <h1 class="font-medium text-xl text-slate-600">Overviews</h1>
+              <h1 class="font-medium text-xl text-slate-600">Features</h1>
+              <h1 class="font-medium text-xl text-slate-600">Solutions</h1>
+              <h1 class="font-medium text-xl text-slate-600">Tutorial</h1>
+              <h1 class="font-medium text-xl text-slate-600">Pricing</h1>
+              <h1 class="font-medium text-xl text-slate-600">Releases</h1>
+            </div>
+          </div>
+          <div class="w-1/2">
+            <h3 class="font-medium text-lg text-slate-500">Company</h3>
+            <div class="mt-4 grid gap-4">
+              <h1 class="font-medium text-xl text-slate-600">About us</h1>
+              <h1 class="font-medium text-xl text-slate-600">Careers</h1>
+              <h1 class="font-medium text-xl text-slate-600">Press</h1>
+              <h1 class="font-medium text-xl text-slate-600">News</h1>
+              <h1 class="font-medium text-xl text-slate-600">Media kit</h1>
+              <h1 class="font-medium text-xl text-slate-600">Contact</h1>
+            </div>
+          </div>
+          <div class="w-1/2 mt-8 lg:mt-0">
+            <h3 class="font-medium text-lg text-slate-500">Resaources</h3>
+            <div class="mt-4 grid gap-4">
+              <h1 class="font-medium text-xl text-slate-600">Blog</h1>
+              <h1 class="font-medium text-xl text-slate-600">Newsletter</h1>
+              <h1 class="font-medium text-xl text-slate-600">Events</h1>
+              <h1 class="font-medium text-xl text-slate-600">Help centre</h1>
+              <h1 class="font-medium text-xl text-slate-600">Tutorial</h1>
+              <h1 class="font-medium text-xl text-slate-600">Support</h1>
+            </div>
+          </div>
+          <div class="w-1/2 mt-8 lg:mt-0">
+            <h3 class="font-medium text-lg text-slate-500">Use cases</h3>
+            <div class="mt-4 grid gap-4">
+              <h1 class="font-medium text-xl text-slate-600">Startups</h1>
+              <h1 class="font-medium text-xl text-slate-600">Enterprise</h1>
+              <h1 class="font-medium text-xl text-slate-600">Goverment</h1>
+              <h1 class="font-medium text-xl text-slate-600">SaaS</h1>
+              <h1 class="font-medium text-xl text-slate-600">Marketplaces</h1>
+              <h1 class="font-medium text-xl text-slate-600">Ecommerce</h1>
+            </div>
+          </div>
+          <div class="w-1/2 mt-8 lg:mt-0">
+            <h3 class="font-medium text-lg text-slate-500">Sosial</h3>
+            <div class="mt-4 grid gap-4">
+              <h1 class="font-medium text-xl text-slate-600">Twitter</h1>
+              <h1 class="font-medium text-xl text-slate-600">Linkedin</h1>
+              <h1 class="font-medium text-xl text-slate-600">Facebook</h1>
+              <h1 class="font-medium text-xl text-slate-600">Github</h1>
+              <h1 class="font-medium text-xl text-slate-600">AngelList</h1>
+              <h1 class="font-medium text-xl text-slate-600">Dribbble</h1>
+            </div>
+          </div>
+          <div class="w-1/2 mt-8 lg:mt-0">
+            <h3 class="font-medium text-lg text-slate-500">Legal</h3>
+            <div class="mt-4 grid gap-4">
+              <h1 class="font-medium text-xl text-slate-600">Terms</h1>
+              <h1 class="font-medium text-xl text-slate-600">Privacy</h1>
+              <h1 class="font-medium text-xl text-slate-600">Cookies</h1>
+              <h1 class="font-medium text-xl text-slate-600">Licenses</h1>
+              <h1 class="font-medium text-xl text-slate-600">Settings</h1>
+              <h1 class="font-medium text-xl text-slate-600">Contact</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
